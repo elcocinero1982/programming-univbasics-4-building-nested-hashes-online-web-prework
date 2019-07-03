@@ -1,9 +1,9 @@
 def monopoly
 monopoly =  {
-  :railroads=> 6
-  {
+  :railroads=> 4
+},
     :pieces=>4,
-    :rent_in_dollars=> 500
+    :rent_in_dollars=> 375
     {
       :one_piece_owned=>25,
       :two_pieces_owned=>50,
@@ -12,15 +12,15 @@ monopoly =  {
     },
     :names=> "railroads"
     {
-      :reading_railroad=> 3
+      :reading_railroad=> 1
       {
         "mortgage_value"=>"$100"
       },
-      :pennsylvania_railroad=> 1
+      :pennsylvania_railroad=> 2
       {
         "mortgage_value"=>"$200"
       },
-      :b_and_o_railroad=> 2
+      :b_and_o_railroad=> 3
       {
         "mortgage_value"=>"$400"
       },
@@ -29,8 +29,8 @@ monopoly =  {
         "mortgage_value"=>"$800"
       }
     }
-  }
-}
+  
+
 end
 
 def monopoly_with_second_tier
