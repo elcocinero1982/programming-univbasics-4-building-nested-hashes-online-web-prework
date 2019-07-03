@@ -1,26 +1,26 @@
 def monopoly
 monopoly =  {
-  :railroads=>
+  :railroads=> 6
   {
     :pieces=>4,
-    :rent_in_dollars=>
+    :rent_in_dollars=> 500
     {
       :one_piece_owned=>25,
       :two_pieces_owned=>50,
       :three_pieces_owned=>100,
       :four_pieces_owned=>200
     },
-    :names=>
+    :names=> "railroads"
     {
-      :reading_railroad=>
+      :reading_railroad=> 3
       {
         "mortgage_value"=>"$100"
       },
-      :pennsylvania_railroad=>
+      :pennsylvania_railroad=> 1
       {
         "mortgage_value"=>"$200"
       },
-      :b_and_o_railroad=> 
+      :b_and_o_railroad=> 2
       {
         "mortgage_value"=>"$400"
       },
