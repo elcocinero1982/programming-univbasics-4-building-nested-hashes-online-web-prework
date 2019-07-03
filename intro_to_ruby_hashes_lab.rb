@@ -1,6 +1,6 @@
 def monopoly
 monopoly =  {
-  :railroads=> 4
+  :railroads=> "4"
 },
     :pieces=>4,
     :rent_in_dollars=> 375
